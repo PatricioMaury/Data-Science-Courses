@@ -12,6 +12,7 @@ class User:
     
 user1 = User("DanTheMan", " Dan@gmail.com  ", "123")
 
-print(user1._email) # Accessing a protected attribute directly (not recommended, but possible).
+print(user1._email) # Accessing a protected attribute directly (not recommended, but possible). 
+# Double underscore for private attribute.
 print(user1.clean_email())
 
